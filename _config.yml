@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Yulin Yuan"
 title_separator          : "-"
 name                     : &name "Yulin Yuan"
-description              : &description "PhD student at Zhejiang University working on diffusion language models"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "PhD student at Zhejiang University working on diffusion models and diffusion language models"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://infiniteYuanyl.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,10 +23,10 @@ repository               : "infiniteYuanyl/academic-homepage"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : # e.g. "profile.png" - place the file in /images/
   name             : "Yulin Yuan"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student working on diffusion language models and diffusion-based multimodal LLMs."
+  bio              : "PhD student in the Probabilistic Inference Lab, working on diffusion models and diffusion language models."
   location         : "Hangzhou, China"
   employer         : "Zhejiang University"
   uri              : # URL

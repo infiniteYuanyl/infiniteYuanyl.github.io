@@ -18,14 +18,15 @@ Education
 
 Research experience
 ======
-* <span style="color:#b00">[YEAR – YEAR]</span>: <span style="color:#b00">[Role]</span>, <span style="color:#b00">[Lab / Group]</span>, Zhejiang University
-  * <span style="color:#b00">[One line on what you worked on]</span>
-  * Advisor: <span style="color:#b00">[Name]</span>
+* <span style="color:#b00">[YEAR – present]</span>: PhD student, Probabilistic Inference Lab (PIL), Zhejiang University
+  * Diffusion models, with a current focus on diffusion language models
+  * Inference-time decoding for diffusion-based multimodal large language models
 
 Skills
 ======
-* Diffusion language models: masked discrete diffusion, latent diffusion, flow matching
-* Multimodal large language models and inference-time decoding
+* Diffusion models: masked discrete diffusion, latent diffusion, flow matching
+* Diffusion language models and multimodal large language models
+* Inference-time decoding and evaluation
 * PyTorch, distributed training, large-scale evaluation pipelines
 
 Publications
@@ -39,7 +40,3 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-
-Service and reviewing
-======
-* Reviewer for <span style="color:#b00">[VENUE, YEAR]</span>
