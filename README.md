@@ -30,9 +30,9 @@ docker run --rm -p 4000:4000 -v "$PWD":/usr/src/app -u 1000:1000 \
 
 Then open <http://localhost:4000>.
 
-## Going live
+## Published site
 
-This repository is private, and GitHub Pages does not publish private
-repositories on the free plan. To publish: make the repository public, or
-rename it to `infiniteYuanyl.github.io`, then enable Pages in
-Settings → Pages (source: GitHub Actions or the `main` branch).
+<https://infiniteyuanyl.github.io/>
+
+GitHub Pages builds from the `master` branch, root path. Pushing to `master`
+republishes the site, usually within a minute.
