@@ -23,7 +23,7 @@ repository               : "infiniteYuanyl/academic-homepage"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : # e.g. "profile.png" - place the file in /images/
+  avatar           : "profile.png"
   name             : "Yulin Yuan"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in the Probabilistic Inference Lab, working on diffusion models and diffusion language models."
