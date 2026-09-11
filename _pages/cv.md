@@ -15,8 +15,8 @@ A PDF version is available <a href="{{ base_path }}/files/cv.pdf">here</a>.
 
 Education
 ======
-* Ph.D. in <span style="color:#b00">[MAJOR]</span>, Zhejiang University, <span style="color:#b00">[YEAR]</span> (expected)
-* B.S. in <span style="color:#b00">[MAJOR]</span>, <span style="color:#b00">[UNIVERSITY]</span>, <span style="color:#b00">[YEAR]</span>
+* Ph.D. in <span style="color:#b00">[MAJOR]</span>, Zhejiang University, <span style="color:#b00">[YEAR]</span> – present
+* B.S., <span style="color:#b00">[YEAR]</span>
 
 Research experience
 ======
