@@ -15,13 +15,6 @@ Research experience
   * Diffusion models, with a current focus on diffusion language models
   * Inference-time decoding for diffusion-based multimodal large language models
 
-Skills
-======
-* Diffusion models: masked discrete diffusion, latent diffusion, flow matching
-* Diffusion language models and multimodal large language models
-* Inference-time decoding and evaluation
-* PyTorch, distributed training, large-scale evaluation pipelines
-
 Publications
 ======
   <ul>{% for post in site.publications reversed %}

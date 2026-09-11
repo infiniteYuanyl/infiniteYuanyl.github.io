@@ -13,10 +13,8 @@ Most of my recent work sits at inference time. Diffusion language models commit 
 
 Research interests
 ======
-* Diffusion models: training objectives, latent-space formulations, and sampling
-* Diffusion language models and diffusion-based multimodal large language models (dMLLMs)
-* Training-free, inference-time decoding: parallel decoding, position selection, redundancy control
-* Efficient generation: the accuracy/latency trade-off in non-autoregressive text generation
+* Accelerated sampling and controllable generation for discrete diffusion language models
+* Continuous diffusion language models
 
 News
 ======
