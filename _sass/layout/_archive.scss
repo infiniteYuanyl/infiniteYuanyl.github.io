@@ -283,3 +283,14 @@
 .archive__item-excerpt .publication__abstract {
   font-size: $type-size-6;
 }
+
+/* Paper titles read as headings, not as links; the bracketed resource
+   links beside them keep the link colour. */
+.archive__item-title > a {
+  color: var(--global-text-color);
+
+  &:hover {
+    color: var(--global-text-color);
+    text-decoration: underline;
+  }
+}

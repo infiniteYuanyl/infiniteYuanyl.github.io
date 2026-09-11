@@ -20,7 +20,8 @@ Publications
 ======
 
 <div class="publication-list">
-{% for post in site.publications reversed %}
+{% assign publications = site.publications | sort: 'order' %}
+{% for post in publications %}
   {% include archive-single.html %}
 {% endfor %}
 </div>
