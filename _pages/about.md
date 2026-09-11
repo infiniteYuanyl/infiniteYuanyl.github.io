@@ -16,9 +16,14 @@ Research interests
 * Accelerated sampling and controllable generation for discrete diffusion language models
 * Continuous diffusion language models
 
-News
+Publications
 ======
-* **2026-05** Our paper [*Visual-Redundancy-Controlled Parallel Decoding for Diffusion-Based Multimodal Large Language Models*](https://arxiv.org/abs/2605.25820) is on arXiv.
+
+<div class="publication-list">
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+</div>
 
 Contact
 ======

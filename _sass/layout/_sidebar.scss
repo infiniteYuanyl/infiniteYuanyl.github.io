@@ -322,3 +322,14 @@
     }
   }
 }
+
+/* Slightly larger sidebar text: the default 0.75em bio was hard to read. */
+.sidebar {
+  p, li {
+    font-size: 0.875em;
+  }
+
+  .author__bio {
+    line-height: 1.6;
+  }
+}

@@ -32,6 +32,15 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      {% if post.collection == 'publications' %}
+        <span class="publication__links">
+          {% if post.paperurl %}[<a href="{{ post.paperurl }}">{{ post.paperlabel | default: 'PDF' }}</a>]{% endif %}
+          {% if post.arxivurl %}[<a href="{{ post.arxivurl }}">arXiv</a>]{% endif %}
+          {% if post.codeurl %}[<a href="{{ post.codeurl }}">Code</a>]{% endif %}
+          {% if post.slidesurl %}[<a href="{{ post.slidesurl }}">Slides</a>]{% endif %}
+          {% if post.bibtexurl %}[<a href="{{ post.bibtexurl }}">BibTeX</a>]{% endif %}
+        </span>
+      {% endif %}
     </h2>
     
     {% if post.read_time %}
@@ -44,7 +53,7 @@
           {% if post.authors %}
             <p class="publication__authors">{{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>
           {% endif %}
-          <p class="publication__venue"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.award %} <span class="publication__award">({{ post.award }})</span>{% endif %}</p>
+          <p class="publication__venue">{{ post.venue }}{% if post.award %} <span class="publication__award">({{ post.award }})</span>{% endif %}</p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -55,17 +64,5 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.collection == 'publications' %}
-      {% assign sep = '<span class="publication__sep">/</span>' %}
-      <p class="publication__links">
-        <a href="{{ base_path }}{{ post.url }}">details</a>
-        {% if post.paperurl %}{{ sep }} <a href="{{ post.paperurl }}">{{ post.paperlabel | default: 'paper' }}</a>{% endif %}
-        {% if post.arxivurl %}{{ sep }} <a href="{{ post.arxivurl }}">arXiv</a>{% endif %}
-        {% if post.codeurl %}{{ sep }} <a href="{{ post.codeurl }}">code</a>{% endif %}
-        {% if post.slidesurl %}{{ sep }} <a href="{{ post.slidesurl }}">slides</a>{% endif %}
-        {% if post.bibtexurl %}{{ sep }} <a href="{{ post.bibtexurl }}">bibtex</a>{% endif %}
-      </p>
-    {% endif %}
-
   </article>
 </div>

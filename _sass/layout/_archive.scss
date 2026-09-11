@@ -265,8 +265,10 @@
 }
 
 .publication__links {
-  margin: 0.4em 0 0;
   font-size: $type-size-6;
+  font-weight: normal;
+  white-space: nowrap;
+  color: var(--global-text-color-light);
 
   a {
     text-decoration: none;
@@ -276,11 +278,6 @@
       border-bottom-color: currentColor;
     }
   }
-}
-
-.publication__sep {
-  color: var(--global-text-color-light);
-  padding: 0 0.15em;
 }
 
 .archive__item-excerpt .publication__abstract {

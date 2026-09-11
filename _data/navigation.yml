@@ -8,9 +8,6 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Publications"
-    url: /publications/
-
   # Uncomment once there is at least one entry in _talks/
   # - title: "Talks"
   #   url: /talks/
@@ -18,9 +15,6 @@ main:
   # Uncomment once there is at least one post in _posts/
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
     
   # - title: "CV"
   #   url: /cv-json/
