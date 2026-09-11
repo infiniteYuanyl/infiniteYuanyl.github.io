@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+<!-- Drop a cv.pdf into files/ and uncomment the next line to offer a download.
 A PDF version is available <a href="{{ base_path }}/files/cv.pdf">here</a>.
+-->
 
 Education
 ======

@@ -11,11 +11,13 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  # Uncomment once there is at least one entry in _talks/
+  # - title: "Talks"
+  #   url: /talks/
 
-  - title: "Blog Posts"
-    url: /year-archive/
+  # Uncomment once there is at least one post in _posts/
+  # - title: "Blog Posts"
+  #   url: /year-archive/
     
   - title: "CV"
     url: /cv/
