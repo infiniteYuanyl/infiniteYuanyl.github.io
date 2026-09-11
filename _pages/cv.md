@@ -9,18 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- Drop a cv.pdf into files/ and uncomment the next line to offer a download.
-A PDF version is available <a href="{{ base_path }}/files/cv.pdf">here</a>.
--->
-
-Education
-======
-* Ph.D. in <span style="color:#b00">[MAJOR]</span>, Zhejiang University, <span style="color:#b00">[YEAR]</span> – present
-* B.S., <span style="color:#b00">[YEAR]</span>
-
 Research experience
 ======
-* <span style="color:#b00">[YEAR – present]</span>: PhD student, Probabilistic Inference Lab (PIL), Zhejiang University
+* PhD student, Probabilistic Inference Lab (PIL), Zhejiang University
   * Diffusion models, with a current focus on diffusion language models
   * Inference-time decoding for diffusion-based multimodal large language models
 
