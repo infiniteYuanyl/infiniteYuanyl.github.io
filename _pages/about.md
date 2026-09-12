@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the Probabilistic Inference Lab (PIL) at [Zhejiang University](https://www.zju.edu.cn/english/). I study **diffusion models**, with a current focus on **diffusion language models**. I am interested in how parallel denoising can support reliable text generation while reducing the cost of inference.
+I am a third-year PhD student in the Probabilistic Inference Lab (PIL) at [Zhejiang University](https://www.zju.edu.cn/english/), expecting to graduate in 2029. I study **diffusion models**, with a current focus on **diffusion language models**. I am interested in how parallel denoising can support reliable text generation while reducing the cost of inference.
 
 My recent work focuses on inference-time decisions: which token positions should a model commit together, and how can we guide that choice without retraining? I study how these choices shape parallel generation.
 
