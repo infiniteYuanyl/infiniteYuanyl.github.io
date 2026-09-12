@@ -1,0 +1,19 @@
+<article class="paper" aria-labelledby="paper-{{ post.acronym | slugify }}" itemscope itemtype="https://schema.org/ScholarlyArticle">
+  <div class="paper__meta">
+    <span class="paper__venue">{{ post.short_venue | default: post.venue }}</span>
+    {% if post.category == 'preprints' %}<span class="paper__year">{{ post.date | date: '%Y' }}</span>{% endif %}
+    {% if post.award %}<span class="paper__award">{{ post.award }}</span>{% endif %}
+  </div>
+  <div class="paper__body">
+    <h3 class="paper__title" id="paper-{{ post.acronym | slugify }}" itemprop="headline"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p class="paper__authors">{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    <p class="paper__summary" itemprop="description">{{ post.summary | default: post.excerpt }}</p>
+    <nav class="paper__links" aria-label="Resources for {{ post.acronym }}">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.paperlabel | default: 'PDF' }}</a>{% endif %}
+      {% if post.arxivurl %}<a href="{{ post.arxivurl }}">arXiv</a>{% endif %}
+      {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+      {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}
+      {% if post.bibtexurl %}<a href="{{ post.bibtexurl | relative_url }}">BibTeX</a>{% endif %}
+    </nav>
+  </div>
+</article>
