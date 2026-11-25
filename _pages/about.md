@@ -2,6 +2,8 @@
 permalink: /
 layout: academic-home
 title: "About me"
+seo_title: "Yulin Yuan (袁钰林) — Zhejiang University"
+description: "Academic homepage of Yulin Yuan (袁钰林), a PhD student at Zhejiang University researching diffusion language models and efficient multimodal generation."
 author_profile: true
 homepage: true
 redirect_from:

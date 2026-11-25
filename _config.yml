@@ -14,7 +14,7 @@ masthead_title           : "Profile"   # label of the first item in the top navi
 title_separator          : "-"
 name                     : &name "Yulin Yuan"
 description              : &description "Third-year PhD student at Zhejiang University working on diffusion models and diffusion language models, expecting to graduate in 2029"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://infiniteYuanyl.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://infiniteyuanyl.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "infiniteYuanyl/infiniteYuanyl.github.io"
